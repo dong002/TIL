@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 id="heading">클릭해주세요</h1>
+    <script>
+        var heading = document.querySelector('#heading');
+        heading.onclick = function(){
+            heading.style.color = "blue";
+        }
+    </script>
+    <script>
+    var Number = prompt("숫자 입력해달라옹");
+
+    if(Number != null){
+        if ((Number % 3 == 0) && (Number % 7 == 0)) {
+            alert("3의 배수이면서 7의 배수입니다");
+        } else if(Number % 3 == 0) {
+        alert("3의배수입니다");
+        } else if(Number % 7 == 0) {
+            alert("7의배수 입니다");
+        } else {
+            alert("3의배수도 아니고 7의 배수도 아님");
+        }
+    }
+    var Ban = prompt("몇반인지 입력하세용 예)1");
+
+    switch(Ban){
+        case "1": document.write("<p><bold>1반</bold>입니당</p>");
+            break;
+        case "2": document.write("<p><bold>2반</bold>입니당</p>");
+            break;
+        case "3": document.write("<p><bold>3반</bold>입니당</p>");
+            break;
+        case "4": document.write("<p><bold>4반</bold>입니당</p>");
+            break;
+        default: document.write("<p><bold>다시입력</bold></p>");
+            break;
+    }
+    </script>
+    <script>
+        var num = 0;
+        var sum = 0;
+        for (num = 1; i <= 100; i++){
+            if(num % 10 == 0){
+                continue;
+            }
+                sum+=num;
+        }
+        alert(sum);
+    </script>
+</body>
+</html>
