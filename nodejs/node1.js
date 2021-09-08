@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
     var url = req.url;
     if (req.url == '/dongdong') {
         res.write('dongdong fuck them');
-        res.end();
+        res.end();//respond를 끝낸다
     }
     if (req.url == '/web') {
         const data = fs.readFileSync('./node_web/index.html',
