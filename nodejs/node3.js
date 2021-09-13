@@ -2,6 +2,9 @@ const http = require("http");
 const fs = require("fs");
 const url = require("url");
 const port1 = 3000;
+const test = {
+    "시발": "애미"
+}
 const app = http.createServer((req,res) => {
     var _url = req.url;
     var querydata = url.parse(_url,true).query;
