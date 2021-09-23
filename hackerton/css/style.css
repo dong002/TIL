@@ -1,0 +1,59 @@
+body{
+    background-image: url(/hackerton/image/);
+}
+#main{
+    width: 900px;
+    margin: auto;
+    margin-top: 12px;
+    border: black solid 1px;
+    background-image: url(./image/Back2.png);
+    color: #505153;
+
+}
+.GSM{
+    color:#046296;
+    width: 200px;
+}
+h1{
+    color:hsl(209, 53%, 56%)
+}
+#first {
+    background-color: #5391CA;
+    color:white;
+}
+#gsm {
+    margin:22px;
+    margin-left:80px;
+}
+#hr{
+    background-color:black;
+    height: 5px;
+    width: 530px;
+}
+#english{
+    margin-left: 74%;
+    margin-top: 2%;
+    color: blue;
+    font-size: 15px;
+}
+#korean {
+    font-size: 19px;
+    padding-left: 70px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.kakaologin{
+    width: 21%;
+    margin-left: 70px;
+}
+#gsmenglish{
+    width: 35%;
+    margin-left: 50%;
+}
+#BUTTON{
+    margin-left: 19%;
+    margin-top: 10%;
+    width: 200px;
+    height: 50px;
+    border-radius: 16px;
+}
