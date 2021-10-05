@@ -27,9 +27,17 @@ const server = http.createServer((req, res) => {
 
 
 app.get('/', (req, res) => {
-    console.log(req);
+    // console.log(req);
+    const id = req.body.id
+    console.log(id);
     res.sendFile(__dirname + '/node_web/index.html');
 })
+
+// app.get('/topic', (req, res) => {
+   
+//     //console.log('시발');
+//     console.log(req.query);
+// })
 
 app.listen(port, () => {
     console.log('서버 온');

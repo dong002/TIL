@@ -1,4 +1,4 @@
-import discord 
+import discord
 from discord.ext.commands import Bot
 #embed = discord.Embed(title="!FBI WARNING¡", description="당신의 학생이 학교폭력상황에 노출되어있습니다", color=0x62c1cc) # Embed의 기본 틀(색상, 메인 제목, 설명)을 잡아줍니다
 #embed.set_footer(text="하단 설명") # 하단에 들어가는 조그마한 설명을 잡아줍니다
