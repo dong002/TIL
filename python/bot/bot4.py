@@ -50,11 +50,11 @@ async def on_ready():
 @ct.event
 async def on_message(ctx):
     ch = ctx.channel
-    if ctx.content.startwith("대화시작"):
-        await ch.send("시작이요 히히")
-    # msg = await ct.wait_for('ctx')
-    if mode == 1:
-        await ch.send("ㅇㅇ")
+    # if ctx.content.startwith("대화시작"):
+    #     await ch.send("시작이요 히히")
+    # # msg = await ct.wait_for('ctx')
+    # if mode == 1:
+    await ch.send("ㅇㅇ")
     # await ctx.send("ㅇㅇ")
 
 
