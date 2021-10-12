@@ -1,4 +1,4 @@
-const { ApplicationCommandPermissionsManager } = require("discord.js");
+
 const express=require("express");
 const fs=require("fs");
 const app=express();
@@ -11,6 +11,10 @@ const connection = mysql.createConnection({
   password : 'youtube',
   database : 'student'
 });
+app.set('view engine', 'html');
+
+app.use(express.static('node_web/public'));
+
 const insert = "INSERT INTO prectice (id,password) VALUES (?,?)";
 const select = "SELECT id FROM prectice WHERE id=?";
 connection.connect((err)=>{
@@ -25,21 +29,23 @@ function push(id,pwd) {
     let param=[id,pwd]
     connection.query(insert,param,(err,rows,fields)=>{
         if(err){
-          console.log(err);
+            console.log(err);
+            return 0;
+        }
+        else{
+            return 1;
         }
     })
 } 
-function sec(id){
-    let param=id
-    connection.query(select,param,(err,rows,fields)=>{
-        if(err){
-            console.error(err);
-        }
-        else{
-            
-        }
-    })
-}
+// function sec(id){
+//     let param=id
+//     const result = connection.query(select,param,(err,rows,fields)=>{
+//         if(err){
+//             console.error(err);
+//         }
+//         console.log(rows);
+//     })
+// }
 
 // const lgbt=document.querySelector("button")
 
@@ -55,7 +61,7 @@ function login(){
 }
 
 app.get('/',(req,res)=>{
-    fs.readFile("./node_web/index.html","utf-8",(err,data)=>{
+    fs.readFile("./node_web/public/index.html","utf-8",(err,data)=>{
         if(err){
             console.error(err)
         }
@@ -66,7 +72,7 @@ app.get('/',(req,res)=>{
     })
 })
 app.get('/login',(req,res)=>{
-    fs.readFile("./node_web/checkbox.html","utf-8",(err,data)=>{
+    fs.readFile("./node_web/public/checkbox.html","utf-8",(err,data)=>{
         const user = req.body
         if(err){
             console.error(err)
@@ -82,7 +88,11 @@ app.post('/login',(req,res)=>{
 })
 app.post('/signup', (req, res) => {
     const user = req.body
-    push(user.make_id,user.make_pw)
+    let p = push(user.make_id,user.make_pw)
+    if (p==0){
+        res.render("sibal")
+    }
+    console.log(user);
 
     res.send('시발');
 })
@@ -121,7 +131,7 @@ app.get('/JavaScript',(req,res)=>{
     })
 })
 app.get('/signup',(req,res)=>{
-    fs.readFile("./node_web/sign.html","utf-8",(err,data)=>{
+    fs.readFile("./node_web/public/sign.html","utf-8",(err,data)=>{
         if(err){
             console.error(err)
         }
