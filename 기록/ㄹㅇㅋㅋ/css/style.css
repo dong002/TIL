@@ -3,6 +3,19 @@
     min-height: 172vh;
     height: 70%;
 }
+#home2 {
+    background-image: url(../pic/다운로드2.png);
+    min-height: 172vh;
+    height: 70%;
+}
+#home3 {
+    background-image: url(../pic/다운로드\ \).png);
+    min-height: 172vh;
+    height: 70%;
+}
+/* #foot{
+    background-image: url(../pic/다운로드3.png);
+} */
 .bg {
     background-size: cover;
     background-position: center top;
@@ -61,6 +74,25 @@ video{
 }
 footer{
     /* margin: 0 auto; */
-    margin-top: 840px;
     margin-left: 10px;
 }
+#ggong{
+    margin-right: 10px;
+    margin-left: 33%;
+    
+}
+#d{
+    display: block;
+    width: 50px;
+}
+#ggong > #resirock-gasa{
+    display: none;
+}
+#home50{
+    background-image: url(/기록/ㄹㅇㅋㅋ/pic/dkedkoe.png);
+    background-size: cover;
+}
+#dung{  
+    text-align: center;
+}
+

@@ -88,7 +88,7 @@ app.post('/login',(req,res)=>{
 })
 app.post('/signup', (req, res) => {
     const user = req.body
-    let p = push(user.make_id,user.make_pw)
+    let p = push(user.id,user.pw)
     if (p==0){
         res.render("sibal")
     }
@@ -120,7 +120,7 @@ app.get('/CSS',(req,res)=>{
     })
 })
 app.get('/JavaScript',(req,res)=>{
-    fs.readFile("./node_web/3.html","utf-8",(err,data)=>{
+    fs.readFile("./node_web/public3.html","utf-8",(err,data)=>{
         if(err){
             console.error(err)
         }
@@ -131,7 +131,7 @@ app.get('/JavaScript',(req,res)=>{
     })
 })
 app.get('/signup',(req,res)=>{
-    fs.readFile("./node_web/public/sign.html","utf-8",(err,data)=>{
+    fs.readFile("./node_web/sign.html","utf-8",(err,data)=>{
         if(err){
             console.error(err)
         }
