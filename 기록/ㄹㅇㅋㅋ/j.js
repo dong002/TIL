@@ -96,21 +96,3 @@ img.onmouseout=function(){
 
 }
 
-// function test() {
-//     console.log('test');
-// }
-// function doBlink() { 
-
-// const blink = document.body.getElementsByClassName("hong")
-// var i=0
-// while(1){
-//     if(i%2==0){
-//         blink.
-//     }
-// } 
-// function startBlink() { 
-// if (blink) 
-// setInterval("doBlink()",350) 
-// } 
-// window.onload = startBlink; 
-

@@ -78,7 +78,7 @@ footer{
 }
 #ggong{
     margin-right: 10px;
-    margin-left: 33%;
+    margin-left: 38%;
     
 }
 #d{
@@ -95,4 +95,26 @@ footer{
 #dung{  
     text-align: center;
 }
+#picture{
+    text-align: center;
+    display: flexbox;
+}
+#gif{
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -1000px;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 1000px;
+      width: 100%;
+    }
+  }
 
