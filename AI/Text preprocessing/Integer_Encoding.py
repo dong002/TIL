@@ -62,7 +62,10 @@ for sentence in preprocessed_sentences:
     for word in sentence:
         try:
             #단어 집합에 있는 단어라면 해당 단어 인덱스 출력
-            encoded_sentence.append(word)
+            encoded_sentence.append(word_to_index[word])
         except KeyError:
-            encoded_sentence.append('OOV')
-        
+            encoded_sentence.append(word_to_index['OOV'])
+    encoded_sentences.append(encoded_sentence)
+print(encoded_sentences)
+print('\n\n\n\n\n\n\n\n\n\n\n\n\n')
+print(preprocessed_sentences)
