@@ -1,7 +1,7 @@
-a,b= input().split(' ')
-c = int(input())
+a,b,c= input().split(' ')
 a = int(a)
 b = int(b)
+
 while True:
     min = b+c
     if min >= 60:
