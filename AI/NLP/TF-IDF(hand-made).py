@@ -46,3 +46,14 @@ for j in range(len(voca)):
     result.append(idf(t))
 idf_ = pd.DataFrame(result, index=voca ,columns=["IDF"])
 print(idf_)
+
+result = []
+for i in range(N):
+  result.append([])
+  d = docs[i]
+  for j in range(len(voca)):
+    t = voca[j]
+    result[-1].append(tfidf(t,d))
+
+tfidf_ = pd.DataFrame(result, columns = voca)
+print(tfidf_)
