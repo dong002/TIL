@@ -1,2 +1,3 @@
 import os
-print(os.urandom(1))
+import requests
+print(os.urandom(1).hex)

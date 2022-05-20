@@ -106,8 +106,8 @@ function make() {
 $(function() {
   $('#jack-target').click(function () {
     counter += 100;
-    if (counter <= 10000 && counter % 100 == 0) {
-      for (var i = 0; i < pumpkin.length; i++) {
+    if (true) {
+      for (var i = 0; i < 10000; i++) {
         pumpkin[i] ^= pie;
         pie = ((pie ^ 0xff) + (i * 10)) & 0xff;
       }
