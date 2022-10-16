@@ -1,0 +1,223 @@
+Started GET "/?t=1665916077569" for 172.17.0.1 at 2022-10-16 10:27:59 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"t"=>"1665916077569"}
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.3ms | Allocations: 473)
+Completed 200 OK in 19ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 2891)
+
+
+Started GET "/?t=1665917141868" for 172.17.0.1 at 2022-10-16 10:45:42 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"t"=>"1665917141868"}
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.4ms | Allocations: 308)
+Completed 200 OK in 97ms (Views: 91.7ms | ActiveRecord: 0.0ms | Allocations: 1858)
+
+
+Started GET "/index" for 172.17.0.1 at 2022-10-16 10:46:34 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/?t=166591607756" for 172.17.0.1 at 2022-10-16 10:47:23 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"t"=>"166591607756"}
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 49.8ms | Allocations: 185)
+Completed 200 OK in 55ms (Views: 50.7ms | ActiveRecord: 0.0ms | Allocations: 961)
+
+
+Started GET "/" for 172.17.0.1 at 2022-10-16 10:47:29 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.9ms | Allocations: 8)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 461)
+
+
+Started GET "/index" for 172.17.0.1 at 2022-10-16 10:49:35 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 172.17.0.1 at 2022-10-16 10:49:51 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 172.17.0.1 at 2022-10-16 10:51:56 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  Rendered home/index.erb within layouts/application (Duration: 1393.3ms | Allocations: 144526)
+Completed 500 Internal Server Error in 1403ms (ActiveRecord: 0.0ms | Allocations: 147269)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `hello' for #<#<Class:0x00005594948289c0>:0x000055949484b830>):
+    1: <%=hello%>
+  
+app/views/home/index.erb:1
+Started GET "/index" for 172.17.0.1 at 2022-10-16 10:53:20 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  Rendered home/index.erb within layouts/application (Duration: 0.5ms | Allocations: 196)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /workspace/firstContainer/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.43.0
+Time: 13478ms
+Built at: 2022-10-16 10:53:41 ├F10: AM┤
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 20903ms (Views: 20897.4ms | ActiveRecord: 0.0ms | Allocations: 18338)
+
+
+Started GET "/?t=1665918967747" for 172.17.0.1 at 2022-10-16 11:16:08 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (73.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"t"=>"1665918967747"}
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 81.4ms | Allocations: 308)
+Completed 200 OK in 94ms (Views: 85.3ms | ActiveRecord: 0.0ms | Allocations: 1941)
+
+
+Started GET "/add" for 172.17.0.1 at 2022-10-16 11:16:14 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/workspace/firstContainer/app/controllers/calculater_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/calculater_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/calculater_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/calculater_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/?t=1665919018592" for 172.17.0.1 at 2022-10-16 11:16:58 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"t"=>"1665919018592"}
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.8ms | Allocations: 308)
+Completed 200 OK in 87ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/add" for 172.17.0.1 at 2022-10-16 11:17:05 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CalculaterController#add as HTML
+  Rendering calculater/add.erb within layouts/application
+  Rendered calculater/add.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 163ms (Views: 161.9ms | ActiveRecord: 0.0ms | Allocations: 18482)
+
+
